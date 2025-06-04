@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body, html {
+    height: 100%;
+    background: #fff;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .form-box {
+    flex: 1;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .form-box h1 {
+    margin-bottom: 30px;
+    font-size: 32px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin: 10px 0 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+  
+  .checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .checkbox input {
+    margin-right: 8px;
+  }
+  
+button {
+    background-color: #3d592d;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+  
+.divider {
+    text-align: center;
+    margin: 20px 0;
+    color: #999;
+}
+  
+.signin-text {
+    font-size: 14px;
+}
+  
+.signin-text a {
+    color: blue;
+    text-decoration: none;
+}
+  
+.image-box {
+    flex: 1;
+    background-image: url('/img/listya.png'); 
+    background-size: cover;
+    background-position: center; 
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+  
+input.error {
+  border: 2px solid red;
+}
+label.error {
+  color: red;
+}

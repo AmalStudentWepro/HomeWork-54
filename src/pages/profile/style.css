@@ -1,0 +1,95 @@
+.profile-form {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 12px;
+  padding: 32px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.form-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 6px;
+}
+
+.form-input {
+  padding: 12px;
+  font-size: 14px;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.form-input:focus {
+  border-color: #7000ff;
+}
+
+.gender-wrap {
+  display: flex;
+  gap: 10px;
+}
+
+.gender-button {
+  padding: 10px 16px;
+  background: #f4f4f4;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s, border-color 0.3s;
+}
+
+.gender-button:hover {
+  background: #e0e0e0;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 30px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.save-button {
+  background-color: #7000ff;
+  color: white;
+}
+
+
+.logout-button {
+  background-color: transparent;
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 10px;
+}
+
